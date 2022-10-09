@@ -1,0 +1,97 @@
+                /* Split the screen in half */
+                
+                .navbar {
+                    height: 10%;
+                    background-color: rgb(243, 245, 200);
+                }
+                
+                .home {
+                    height: 70px;
+                    border-radius: 50%;
+                    margin-left: 20%;
+                }
+                
+                .dropdown {
+                    margin-right: 50px;
+                    margin-left: 0px;
+                }
+                
+                .dropdown-menu {
+                    margin-right: 10%;
+                    margin-left: 73%;
+                    background-color: rgb(243, 245, 180);
+                }
+                
+                .dropdown-item {
+                    background-color: rgb(243, 245, 160);
+                }
+                
+                .dropdown-item:hover {
+                    background-color: rgb(243, 228, 120);
+                }
+                
+                .avatar {
+                    height: 70px;
+                    border-radius: 100%;
+                    margin-right: 50px;
+                    margin-left: 0px;
+                }
+                
+                .split {
+                    position: fixed;
+                    z-index: -1;
+                    top: 0;
+                    overflow-x: hidden;
+                    padding-top: 20px;
+                }
+                /* Control the left side */
+                
+                .left {
+                    left: 0;
+                    height: 100%;
+                    width: 19%;
+                    z-index: -1;
+                    top: 9%;
+                    overflow-x: hidden;
+                    padding-top: 20px;
+                    background-color: rgb(243, 245, 223);
+                }
+                /* Control the right side */
+                
+                .right {
+                    right: 0;
+                    height: 100%;
+                    width: 81%;
+                    position: fixed;
+                    z-index: -1;
+                    top: 9%;
+                    overflow-x: hidden;
+                    padding-top: 20px;
+                    padding-bottom: 150px;
+                    background-color: rgb(243, 245, 223);
+                }
+                /* If you want the content centered horizontally and vertically */
+                
+                .centered {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                }
+                /* Style the image inside the centered container, if needed */
+                
+                .centered img {
+                    width: 150px;
+                    border-radius: 50%;
+                }
+                
+                center {
+                    margin-top: 5%;
+                    font-size: 2.5rem;
+                }
+                
+                .image {
+                    width: 370px;
+                    border-radius: 100%;
+                }

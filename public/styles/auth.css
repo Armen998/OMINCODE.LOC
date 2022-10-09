@@ -1,0 +1,63 @@
+.split {
+    margin: 5%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.bg {
+    background-color: rgb(243, 245, 223);
+}
+
+body {
+    background-color: rgb(243, 245, 223);
+}
+
+
+/* Control the left side */
+
+.left {
+    height: 100%;
+    width: 70%;
+    left: 0;
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.aaa {
+    height: 100vh !important;
+}
+
+.letter-spacing-3 {
+    letter-spacing: 5px !important;
+}
+
+
+/* Control the right side */
+
+.right {
+    height: 100%;
+    width: 20%;
+    right: 0;
+}
+
+
+/* If you want the content centered horizontally and vertically */
+
+.centeredd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Style the image inside the centered container, if needed */
+
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
